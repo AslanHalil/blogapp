@@ -41,7 +41,7 @@ const Navbar = () => {
                 <a href="/">About</a>
                 <a href="">
                     <button className="py-2 px-4 rounded-3xl bg-blue-800 text-white">
-                        Login
+                        Login 👋
                     </button>
                 </a>
             </div>
