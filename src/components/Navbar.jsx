@@ -1,4 +1,5 @@
 import {useState} from "react";
+import Image from "./Image";
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -6,7 +7,7 @@ const Navbar = () => {
         <div className="w-full h-16 md:h-20 flex items-center justify-between">
             {/*LOGO*/}
             <div className="flex items-center gap-4 text-2xl font-bold">
-                <img src="/logo.png" className="w-8 h-8" alt=""/>
+                <Image src="logo.png" alt="lama logo" w={32} h={32} />
                 <span>lamalog</span>
             </div>
             {/*MOBILE MENU*/}
@@ -27,7 +28,7 @@ const Navbar = () => {
                     <a href="/">About</a>
                     <a href="">
                         <button className="py-2 px-4 rounded-3xl bg-blue-800 text-white">
-                            Login
+                            Login 👋
                         </button>
                     </a>
                 </div>
@@ -45,7 +46,7 @@ const Navbar = () => {
                 </a>
             </div>
         </div>
-);
+    );
 };
 
 export default Navbar;
