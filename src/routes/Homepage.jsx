@@ -1,4 +1,6 @@
 import {Link} from "react-router-dom";
+import MainCategories from "../components/MainCategories.jsx";
+import FeaturedPosts from "../components/FeaturedPosts.jsx";
 
 const HomePage = () => {
     return (
@@ -20,7 +22,7 @@ const HomePage = () => {
                     </p>
                 </div>
                 {/*  animated button */}
-                <Link to="/write" className="relative">
+                <Link to="/write" className="hidden md:block relative">
                     <svg viewBox="0 0 200 200"
                          width="200"
                          height="200"
@@ -53,7 +55,10 @@ const HomePage = () => {
                     </button>
                 </Link>
             </div>
+            {/*Categories*/}
+            <MainCategories/>
             {/*FEATURED POSTS*/}
+            <FeaturedPosts/>
             {/*POST LIST*/}
         </div>
     )
