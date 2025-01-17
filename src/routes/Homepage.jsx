@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 import MainCategories from "../components/MainCategories.jsx";
 import FeaturedPosts from "../components/FeaturedPosts.jsx";
+import PostList from "../components/PostList.jsx";
 
 const HomePage = () => {
     return (
@@ -26,7 +27,7 @@ const HomePage = () => {
                     <svg viewBox="0 0 200 200"
                          width="200"
                          height="200"
-                         // className="text-lg tracking-widest animate-spin animatedButton"
+                        // className="text-lg tracking-widest animate-spin animatedButton"
                          className="text-lg tracking-widest"
 
                     >
@@ -40,7 +41,8 @@ const HomePage = () => {
                             <textPath href="#circlePath" startOffset="50%">Share your idea</textPath>
                         </text>
                     </svg>
-                    <button className="absolute top-0 left-0 right-0 bottom-0 m-auto w-20 h-20 bg-blue-800 rounded-full flex items-center justify-center">
+                    <button
+                        className="absolute top-0 left-0 right-0 bottom-0 m-auto w-20 h-20 bg-blue-800 rounded-full flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg"
                              viewBox="0 0 24 24"
                              width="50"
@@ -60,6 +62,10 @@ const HomePage = () => {
             {/*FEATURED POSTS*/}
             <FeaturedPosts/>
             {/*POST LIST*/}
+            <div>
+                <h1 className="my-8 text-2xl text-gray-600">Recent Posts</h1>
+                <PostList />
+            </div>
         </div>
     )
 }
