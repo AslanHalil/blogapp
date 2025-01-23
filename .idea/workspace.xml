@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0880a4bd-28f5-4426-8499-88709fd30f65" name="Changes" comment="Side menu design">
+      <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/featured1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/featured1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/featured2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/featured2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/featured3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/featured3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/featured4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/featured4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/postImg.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/postImg.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/userImg.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/userImg.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Comment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Comment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Comments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Comments.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeaturedPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FeaturedPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Image.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Image.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainCategories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MainCategories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PostList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostListItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PostListItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostMenuActions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PostMenuActions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SideMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layouts/MainLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/Homepage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/LoginPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/PostListPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/PostListPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/RegisterPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/RegisterPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/SinglePostPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/SinglePostPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Write.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/Write.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2rP4QBqmfBxnjOhEiEaHjAR6QKE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/aslan/Documents/blogapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/429/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0880a4bd-28f5-4426-8499-88709fd30f65" name="Changes" comment="" />
+      <created>1736447358069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736447358069</updated>
+      <workItem from="1736447359687" duration="5543000" />
+      <workItem from="1736858985192" duration="8369000" />
+      <workItem from="1737040493173" duration="3529000" />
+      <workItem from="1737048895704" duration="5693000" />
+      <workItem from="1737131473583" duration="9120000" />
+      <workItem from="1737393243914" duration="6814000" />
+      <workItem from="1737448219306" duration="9001000" />
+      <workItem from="1737572397847" duration="2023000" />
+      <workItem from="1737653658899" duration="786000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added Imagekit">
+      <option name="closed" value="true" />
+      <created>1736863690354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736863690354</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added react-router-dom and created a few pages.">
+      <option name="closed" value="true" />
+      <created>1736866540030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736866540030</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added main layoutt">
+      <option name="closed" value="true" />
+      <created>1736868191535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736868191535</updated>
+    </task>
+    <task id="LOCAL-00004" summary="replaced anchor with Link">
+      <option name="closed" value="true" />
+      <created>1736868540235</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736868540235</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added clerk.">
+      <option name="closed" value="true" />
+      <created>1737045098485</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737045098485</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Customized homepage.">
+      <option name="closed" value="true" />
+      <created>1737055496187</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737055496187</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added Blog categories and featured posts.">
+      <option name="closed" value="true" />
+      <created>1737136460492</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737136460492</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added post and post list design.">
+      <option name="closed" value="true" />
+      <created>1737141739546</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737141739546</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Reduce image size with imagekit">
+      <option name="closed" value="true" />
+      <created>1737394329008</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737394329008</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Single Posts Page Design">
+      <option name="closed" value="true" />
+      <created>1737400842870</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737400842870</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Comment Section Design">
+      <option name="closed" value="true" />
+      <created>1737449500844</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737449500844</updated>
+    </task>
+    <task id="LOCAL-00012" summary="New Post Page Design">
+      <option name="closed" value="true" />
+      <created>1737452491022</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737452491022</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Post List Page Design">
+      <option name="closed" value="true" />
+      <created>1737456035713</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737456035713</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Side menu design">
+      <option name="closed" value="true" />
+      <created>1737459261822</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1737459261822</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Imagekit" />
+    <MESSAGE value="Added react-router-dom and created a few pages." />
+    <MESSAGE value="Added main layoutt" />
+    <MESSAGE value="replaced anchor with Link" />
+    <MESSAGE value="Added clerk." />
+    <MESSAGE value="Customized homepage." />
+    <MESSAGE value="Added Blog categories and featured posts." />
+    <MESSAGE value="Added post and post list design." />
+    <MESSAGE value="Reduce image size with imagekit" />
+    <MESSAGE value="Single Posts Page Design" />
+    <MESSAGE value="Comment Section Design" />
+    <MESSAGE value="New Post Page Design" />
+    <MESSAGE value="Post List Page Design" />
+    <MESSAGE value="Side menu design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Side menu design" />
+  </component>
+</project>
