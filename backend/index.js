@@ -6,6 +6,7 @@ import connectDB from "./lib/connectDB.js";
 import 'dotenv/config'
 
 const app = express();
+app.use(express.json());
 
 // app.get("/test", (req, res) => {
 //     res.status(200).send("it works!");
