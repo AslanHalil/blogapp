@@ -4,50 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0880a4bd-28f5-4426-8499-88709fd30f65" name="Changes" comment="Side menu design">
+    <list default="true" id="0880a4bd-28f5-4426-8499-88709fd30f65" name="Changes" comment="Moved frontend files to a dedicated client folder, created backend folder and basic express setup.">
+      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/lib/connectDB.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/delete.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/facebook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/featured1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/featured1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/featured2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/featured2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/featured3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/featured3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/featured4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/featured4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/instagram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/postImg.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/postImg.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/userImg.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/userImg.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Comment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Comment.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Comments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Comments.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeaturedPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FeaturedPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Image.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Image.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainCategories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MainCategories.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PostList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostListItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PostListItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostMenuActions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PostMenuActions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Search.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SideMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layouts/MainLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/Homepage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/LoginPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/PostListPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/PostListPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/RegisterPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/RegisterPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/SinglePostPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/SinglePostPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Write.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/Write.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +25,7 @@
       <list>
         <option value="TypeScript JSX File" />
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -78,21 +45,27 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Node.js.Unnamed.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/aslan/Documents/blogapp&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.19.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.19.74&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/aslan/Documents/blogapp/backend/routes&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/429/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/431/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/routes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client" />
     </key>
@@ -100,7 +73,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
       </set>
     </attachedChunks>
   </component>
@@ -121,6 +94,14 @@
       <workItem from="1737448219306" duration="9001000" />
       <workItem from="1737572397847" duration="2023000" />
       <workItem from="1737653658899" duration="786000" />
+      <workItem from="1737654829006" duration="3286000" />
+      <workItem from="1737730219362" duration="2305000" />
+      <workItem from="1737732528265" duration="1019000" />
+      <workItem from="1737733550400" duration="403000" />
+      <workItem from="1737734060774" duration="59000" />
+      <workItem from="1737734137063" duration="18000" />
+      <workItem from="1737734182351" duration="488000" />
+      <workItem from="1737734678916" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Added Imagekit">
       <option name="closed" value="true" />
@@ -234,11 +215,22 @@
       <option name="project" value="LOCAL" />
       <updated>1737459261822</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Moved frontend files to a dedicated client folder, created backend folder and basic express setup.">
+      <option name="closed" value="true" />
+      <created>1737658992397</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737658992397</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Imagekit" />
@@ -255,6 +247,7 @@
     <MESSAGE value="New Post Page Design" />
     <MESSAGE value="Post List Page Design" />
     <MESSAGE value="Side menu design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Side menu design" />
+    <MESSAGE value="Moved frontend files to a dedicated client folder, created backend folder and basic express setup." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved frontend files to a dedicated client folder, created backend folder and basic express setup." />
   </component>
 </project>
